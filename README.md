@@ -1,18 +1,18 @@
-# 📱LaySwitch: Handedness Detection Using IMU Data
+# LaySwitch: Handedness Detection Using IMU Data
 
 ### Real-time left / right / both hand detection for smartphones using IMU sensors and Deep Learning
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This project demonstrates a complete end-to-end system for **detecting which hand a user is using to interact with their smartphone** — left, right, or both — using only **IMU (Inertial Measurement Unit)** data collected from the device.
 
 It includes:
 
 - **Two Android applications**
-  - 📲 **IMUData_Handedness** – for recording labeled IMU data  
-  - ⚙️ **HandednessDetector** – for performing real-time inference using a trained model
+  - **IMUData_Handedness** – for recording labeled IMU data  
+  - **HandednessDetector** – for performing real-time inference using a trained model
 - **A training pipeline** based on a **1D Convolutional Neural Network (1D-CNN)**
 - **Supporting scripts and data-handling tools**
 - **Pre-trained model architecture and results**
@@ -21,7 +21,7 @@ The system serves as a **proof of concept** for future **OS-level or kernel-leve
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 handedness-detection/
@@ -42,7 +42,7 @@ handedness-detection/
 
 ---
 
-## 🧱 Components
+## Components
 
 ### 1. **IMUData_Handedness App**
 
@@ -141,7 +141,7 @@ Build APK in Android Studio.
 
 ---
 
-## ⚙️ Technical Summary
+## Technical Summary
 
 - Sensors: Accelerometer, Gyroscope  
 - Sample rate: 60 Hz  
@@ -151,7 +151,7 @@ Build APK in Android Studio.
 
 ---
 
-## 🧠 Vision
+## Vision
 
 This project is a step toward **OS-level handedness APIs**, enabling adaptive UI layouts such as:
 
@@ -162,7 +162,7 @@ This project is a step toward **OS-level handedness APIs**, enabling adaptive UI
 
 ---
 
-## 🧑‍💻 Workflow Summary
+## Workflow Summary
 
 | Step | Description |
 |------|-------------|
@@ -174,7 +174,7 @@ This project is a step toward **OS-level handedness APIs**, enabling adaptive UI
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python ≥ 3.9  
 - TensorFlow ≥ 2.13  
@@ -183,7 +183,7 @@ This project is a step toward **OS-level handedness APIs**, enabling adaptive UI
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Thanks to the guiding professor and colleagues who participated in IMU data collection and testing.
 
